@@ -250,11 +250,11 @@ kubectl scale deployment ticket-booking-app --replicas=5
 
 ## 10. Current Deployment Status
 
-* **Docker Image:** Built and tested successfully
-* **Application URL:** [http://localhost:3000](http://localhost:3000)
-* **Jenkins:** Running at [http://localhost:8080](http://localhost:8080)
-* **Kubernetes:** Ready for scaling and load balancing
-* **GitHub Repository:** [mkarusala/ticket-booking-app](https://github.com/mkarusala/ticket-booking-app)
+**Docker Image:** Built and tested successfully
+**Application URL:** [http://localhost:3000](http://localhost:3000)
+**Jenkins:** Running at [http://localhost:8080](http://localhost:8080)
+**Kubernetes:** Ready for scaling and load balancing
+**GitHub Repository:** [mkarusala/ticket-booking-app](https://github.com/mkarusala/ticket-booking-app)
 
 ---
 
@@ -266,9 +266,11 @@ kubectl scale deployment ticket-booking-app --replicas=5
 * GitFlow branching model implementation
 * Clean commits, structured logs, and modular DevOps workflow
 
----
-
-## 12. Final Outcome
+12. Final Outcome
 
 A fully automated **DevOps pipeline** has been implemented for a **Ticket Booking Web Application**, integrating **Docker**, **Jenkins**, and **Kubernetes** for build, test, and deployment stages.
 The setup is production-ready and can be easily extended for cloud environments.
+
+<img width="1440" height="900" alt="Screenshot 2025-10-27 at 11 28 33 AM" src="https://github.com/user-attachments/assets/56d0390a-a102-4d0f-8ffc-e6888c259c59" />
+
+
