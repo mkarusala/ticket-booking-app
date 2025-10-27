@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ticket-booking-service
+  labels:
+    app: ticket-booking-app
+spec:
+  # Scaling: We want 3 copies of the app running
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ticket-booking-app
+  template:
+    metadata:
+      labels:
+        app: ticket-booking-app
+    spec:
+      containers:
+      - name: ticket-booking-container
+        # Placeholder that the Jenkinsfile replaces with the built image tag
+        image: IMAGE_TAG_PLACEHOLDER 
+        ports:
+        - containerPort: 3000
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        # Health checks to ensure K8s knows when the pod is ready
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 1
+          periodSeconds: 5
