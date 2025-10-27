@@ -1,8 +1,3 @@
-Perfect — here’s the **final, GitHub-optimized Markdown version** of your `README.md` file.
-It’s properly structured, visually clean, and ready to paste directly into your repository.
-
----
-
 ````markdown
 # Ticket Booking Application — DevOps Workflow
 
