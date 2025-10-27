@@ -1,14 +1,16 @@
 ````markdown
+
+
 # Ticket Booking Application — DevOps Workflow
 
-**Author:** Karusala Meenakshi  
-**Repository:** [github.com/mkarusala/ticket-booking-app](https://github.com/mkarusala/ticket-booking-app)
+Author: Karusala Meenakshi  
+Repository: [github.com/mkarusala/ticket-booking-app](https://github.com/mkarusala/ticket-booking-app)
 
 ---
 
 ## 1. Project Overview
 
-This project is a **Node.js-based Ticket Booking Application** developed to demonstrate a complete **DevOps lifecycle** using **Git**, **Docker**, **Jenkins**, and **Kubernetes**.
+This project is a Node.js-based Ticket Booking Application developed to demonstrate a complete DevOps lifecycle using Git, Docker, Jenkins, and Kubernetes.
 
 The primary objective is to automate the build, test, and deployment processes of a simple web application while showcasing how modern DevOps tools integrate efficiently.
 
@@ -16,11 +18,12 @@ The primary objective is to automate the build, test, and deployment processes o
 
 ## 2. Application Overview
 
-- **Tech Stack:** Node.js, Express  
-- **Functionality:** RESTful API for ticket booking operations  
-- **Storage:** In-memory (for demonstration)  
-- **Default Port:** `http://localhost:3000`
+- Tech Stack: Node.js, Express  
+- Functionality: RESTful API for ticket booking operations  
+- Storage: In-memory (for demonstration)  
+- Default Port: http://localhost:3000
 
+````
 ---
 
 ## 3. Version Control (Git & GitHub)
